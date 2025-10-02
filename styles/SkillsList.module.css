@@ -1,0 +1,29 @@
+.skillBoard {
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 340px;
+  margin: 20px auto;
+  padding: 22px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15);
+  border-left: 6px solid #69306d;
+}
+
+.skillHeading {
+  margin-bottom: 14px;
+  font-size: 1.3rem;
+  color: #1b1b3a;
+}
+
+.skillBullets {
+  display: flex;               
+  justify-content: center;     
+  gap: 20px;                  
+  list-style: none;           
+  padding: 0;
+  margin: 0;
+}
+
+.skillItem {
+  margin: 6px 0;
+  color: #333;
+}
